@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-container {
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.hero-left {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.welcome {
+    font-size: 400%;
+    margin-bottom: 50px;
+}
+
+.developer-world {
+    font-size: 300%;
+    margin-bottom: 50px;
+}
+
+.orange-text {
+    color: orange;
+}
+
+.designation {
+    font-size: 200%;
+    margin-bottom: 50px;
+}
+
+.developer-description {
+    margin-bottom: 40px;
+}
+
+.action-button {
+    text-decoration: none;
+    background-color: orange;
+    padding: 20px;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+.action-button:hover {
+    cursor: pointer;
+}
+
+.hero-right img {
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 40vw;
+}
