@@ -13,13 +13,14 @@ body {
 }
 
 .hero-left {
-    margin-left: 50px;
-    margin-top: 20px;
+    margin-left: 70px;
+    margin-top: 50px;
+    margin-right: 70px;
 }
 
 .welcome {
     font-size: 400%;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .developer-world {
@@ -33,7 +34,7 @@ body {
 
 .designation {
     font-size: 200%;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .developer-description {
@@ -43,7 +44,7 @@ body {
 .action-button {
     text-decoration: none;
     background-color: orange;
-    padding: 20px;
+    padding: 10px;
     border-radius: 5px;
     color: aliceblue;
 }
@@ -56,4 +57,44 @@ body {
     margin-top: 20px;
     margin-right: 20px;
     width: 40vw;
+}
+
+.dream-big-container {
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.dream-big-left img {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 40vw;
+}
+
+.dream-big-title {
+    font-size: 400%;
+    margin: 50px;
+    padding-left: 30px;
+}
+
+.dream-big-subtitle {
+    font-size: 200%;
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+
+.dream-big-paragraph {
+    margin-left: 80px;
+    margin-bottom: 50px;
+    padding-right: 100px;
+}
+
+.resume-button {
+    margin-left: 80px;
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 5px;
+    color: aliceblue;
 }
